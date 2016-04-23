@@ -1,0 +1,23 @@
+{
+	"name": "rootxs/ivy-checkin",
+	"type": "library",
+	"description": "Ivy check-in module.",
+	"keywords": ["check-in"],
+	"homepage": "https://github.com/Root-XS/Ivy-Checkin",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mark Potter",
+			"homepage": "https://github.com/mopo922"
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+        "rootxs/ivy": "0.*"
+	},
+	"autoload": {
+		"psr-4" : {
+			"RootXS\\" : "src"
+		}
+	}
+}
